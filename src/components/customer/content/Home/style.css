@@ -512,3 +512,6 @@ ul#menu li a:hover{
   border-radius: 0 20px 20px 0px;
   padding: 10px 30px
 }
+.accordion-item__title{
+  font-size: unset
+}

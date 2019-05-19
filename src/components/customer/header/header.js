@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './header.css'
-import logo from './../../../images/home/logo.png'
+import logo from './../../../assets/customer/images/home/logo.png'
 import {Animated} from "react-animated-css";
 import './header.css'
 

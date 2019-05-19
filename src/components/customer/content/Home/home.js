@@ -63,9 +63,9 @@ class SimpleTabs extends Component {
     }
   }
   
-  SimpleTabs.propTypes = {
+SimpleTabs.propTypes = {
     classes: PropTypes.object.isRequired,
-  };
+};
 
 class Sportswear extends Component{
     render(){
