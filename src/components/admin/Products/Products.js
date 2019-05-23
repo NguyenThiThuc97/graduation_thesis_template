@@ -53,7 +53,7 @@ class Products extends Component{
                                 <p key={index_product}>{element_product.size}{' '}{element_product.color}</p>
                             )}</td>
                             <td>{element.time}</td>
-                            <td>{element.time}</td>
+                            <td>{element.manufacture_details.model}{' '}({element.manufacture_details.name})</td>
                             <td>{element.sale.map((element_sale, index_sale) => 
                                 <p key={index_sale}>{element_sale.calculation}{' '}{element_sale.name}</p>
                             )}</td>
