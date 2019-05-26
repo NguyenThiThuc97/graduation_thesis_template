@@ -1,6 +1,4 @@
 import React, {Component} from 'react'
-// import './../../../../css/slider.css'
-import 'react-animated-slider/build/horizontal.css';
 import classNames from 'classnames';
 import './style.css'
 

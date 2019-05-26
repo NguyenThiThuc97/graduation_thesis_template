@@ -59,8 +59,8 @@ class Products extends Component{
                             )}</td>
                             <td>{element.time}</td>
                             <td>
-                                {/* <button className="btn btn-warning" style={{backgroundColor:"green!important"}}><FontAwesomeIcon icon="edit"/></button> */}
-                                <button className="btn btn-warning"><FontAwesomeIcon icon="trash"/></button>
+                                <button className="btn btn-warning"><FontAwesomeIcon icon="edit"/></button>
+                                <button className="btn btn-danger"><FontAwesomeIcon icon="trash"/></button>
                             </td>
                         </tr>
                     )}

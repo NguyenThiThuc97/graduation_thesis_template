@@ -29,6 +29,7 @@ import MoreIcon from '@material-ui/icons/MoreVert';
 import MenuItem from '@material-ui/core/MenuItem';
 
 import Products from './Products/Products'
+import './style.css'
 
 const drawerWidth = 240;
 
@@ -349,7 +350,7 @@ class PersistentDrawerLeft extends React.Component {
           <div className={classes.drawerHeader} />
             <Products/>
         </main>
-        <div id="mybutton">
+        {/* <div id="mybutton">
           <button class="feedback">Message To Us</button>
         </div>
         <div class="form-popup" id="myForm">
@@ -364,7 +365,7 @@ class PersistentDrawerLeft extends React.Component {
 
             <button type="submit" class="btn">Send</button>
           </form>
-        </div>
+        </div> */}
       </div>
     );
   }
